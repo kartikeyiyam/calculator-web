@@ -17,9 +17,11 @@ html,body{
 
 .result{
     font-size: 3rem;
+    font-weight: bold;
     padding: 2rem;
+    padding-bottom: 1.2rem;
     text-align: left;
-    margin-bottom: 1rem;
+    width: 36.5rem;
 }
 
 input{
@@ -27,27 +29,30 @@ input{
     border: 0;
     border-radius: 0.2rem;
     padding: 1rem;
-    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .buttons{
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 5rem;
-    gap: 1rem;
+    padding: 2rem;
+    padding-top: 0;
+    gap: 0.4rem;
 }
 
 .btn-row{
     display: flex;
     justify-content: center;
     flex: 1;
-    gap: 1rem;
-    
+    gap: 0.4rem;
 }
 
 .btn{
     flex: 1;
-    font-size: 1.8rem;
+    font-size: 2rem;
     aspect-ratio: 1;
+    background: rgb(151, 209, 229);
+    border-radius: 3px;
 }
